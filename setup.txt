@@ -21,3 +21,7 @@ sudo xbps-install git nano cmatrix kitty fish-shell 7zip firefox
 git clone https://www.github.com/rluttrel/void.git
 git clone https://www.github.com/arkenfox/user.js.git
 
+qemu-img create -f qcow2 myVirtualDisk.qcow2 20G
+qemu-system-x86_64 -enable-kvm -m 4G -smp 2 -hda myVirtualDisk.qcow2 -boot d -cdrom Downloads/VoidPup64-22.02+14.iso
+
+
