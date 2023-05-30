@@ -10,7 +10,7 @@ network={
 
 sudo xbps-install -Sy
 sudo xbps-install -u xbps
-sudo xbps-install -Sy sshuttle
+sudo xbps-install -Sy sshuttle wget
 ip a
 sshuttle -r u0_a298@192.168.90.103:8022 0/0 -x 192.168.90.128/24
 sudo xbps-install -Sy sudo kde5 kde5-baseapps sddm gcc xorg-minimal
