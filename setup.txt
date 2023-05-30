@@ -18,4 +18,6 @@ sudo ln -s /etc/sv/dbus /var/service
 sudo ln -s /etc/sv/sddm /var/service
 sudo xbps-install -Sy linux-firmware-intel mesa-dri vulkan-loader mesa-vulkan-intel intel-video-accel pulseaudio
 sudo xbps-install git nano cmatrix kitty fish-shell 7zip firefox
+git clone https://www.github.com/rluttrel/void.git
+git clone https://www.github.com/arkenfox/user.js.git
 
