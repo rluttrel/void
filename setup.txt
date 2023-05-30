@@ -1,0 +1,13 @@
+Install from iso
+/boot/efi   - EFI type 200 Mb
+/ - brfs
+
+/etc/wpa_suplicant/wpa_supplicant.conf
+network={
+    ssid="ballnet"
+    psk="passphrase"
+}
+
+sudo xbps-install -Sy
+sudo xbps-install -u xbps
+sudo xbps-install -Sy sudo xbps-install kde5 kde5-baseapps xorg-minimal 
