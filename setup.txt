@@ -16,7 +16,7 @@ sshuttle -r u0_a298@192.168.90.103:8022 0/0 -x 192.168.90.128/24
 sudo xbps-install -Sy sudo kde5 kde5-baseapps sddm gcc xorg-minimal
 sudo ln -s /etc/sv/dbus /var/service
 sudo ln -s /etc/sv/sddm /var/service
-sudo xbps-install -Sy linux-firmware-intel mesa-dri vulkan-loader mesa-vulkan-intel intel-video-accel pulseaudio
+sudo xbps-install -Sy mesa-dri mesa-vulkan-intel intel-video-accel pulseaudio
 sudo xbps-install git nano cmatrix kitty fish-shell 7zip firefox qemu
 git clone https://www.github.com/rluttrel/void.git
 git clone https://www.github.com/arkenfox/user.js.git
